@@ -14,3 +14,12 @@
 
 리액트에 내장된 기능
 
+## On~(이벤트헨들러props)
+
+addEventListner대신 내장된 props.
+ex) OnClick
+1. 익명 화살표함수를 만들어서 사용할 수 있음
+OnClick = {()=>{consol.log("click")}}
+2. function키워드로 할 수도 있음, 따로 함수를 빼서 넣는것도 가능.
+return전에 함수를 정의 해 주고 빼다가 쓰면 된다. 
+
