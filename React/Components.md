@@ -26,3 +26,4 @@ UI 요소를 잘게 쪼갠 것
 애플리케이션을 작게 사용할 수 있는 컴포넌트로 맞추기 때문에 출력용의 기능만 가지는 컴포넌트가 생김. 보통 소수의 컴포넌트만 state를 제어하고, 그걸 props를 통해 pass한다.
 
 `function Clock(props) { return ( <div> <h1>Hello, world!</h1> <h2>It is {this.props.date.toLocaleTimeString()}.</h2> </div> ); }`
+
