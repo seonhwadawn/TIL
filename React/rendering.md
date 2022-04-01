@@ -32,6 +32,10 @@ console.log(result);
 
 ## 조건부 렌더링
 
+특정조건일때 미리 설정한 다른 출력값을 렌더링 해 두는것
+
+보통은? 
+
 삼항연산자를 활용해서 표현식을 적어둔다
 ex: {filteredExpenses.length === 0 ? <p>No Expenes Found</p> : filteredExpenses.map(expense => <ExpenseItem key={expense.id} title={expense.title} amount={expense.amount} date={expense.date} />)}
 
